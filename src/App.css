@@ -159,7 +159,8 @@ padding:0.1rem;
 .menu-item {
     height: 40px;
     display: flex;
-    align-items: center;
+   align-items: center;
+  
     border-radius: var(--border-radius);
     transition: background var(--speed);
     padding: 0.4rem;
@@ -343,15 +344,19 @@ padding:0.1rem;
     width: 50vw;
     height: 50vw;
     padding: 20px;
+    padding-bottom: 10px;
     background: #c4a991;
     border-radius: 100px;
+    align-items: center;
 }
 .columnImage1920 {
     width: 50vw;
     height: 28.28125vw;
     padding: 20px;
+    padding-bottom:10px;
     background: #c4a991;
     border-radius: 100px;
+    align-items: center;
 }
 .textPa {
 display:inline-block;
