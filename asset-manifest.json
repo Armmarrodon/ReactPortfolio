@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.13e0a307.css",
-    "main.js": "/ReactPortfolio/static/js/main.63a60e6a.js",
+    "main.js": "/ReactPortfolio/static/js/main.ecae831d.js",
     "static/js/787.d3e12d36.chunk.js": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js",
     "static/media/concrete-wall-darker.jpg": "/ReactPortfolio/static/media/concrete-wall-darker.cc23279aa61854ad3749.jpg",
     "static/media/franjaPla.jpg": "/ReactPortfolio/static/media/franjaPla.6a7d3b8b5cfff3ceece9.jpg",
     "static/media/image_001_0065.jpg": "/ReactPortfolio/static/media/image_001_0065.ce66ae1f0b0d8855b7fe.jpg",
-    "static/media/_pola_planet.jpg": "/ReactPortfolio/static/media/_pola_planet.991efb99ec18efbab045.jpg",
+    "static/media/polaplanet.jpg": "/ReactPortfolio/static/media/polaplanet.991efb99ec18efbab045.jpg",
     "static/media/gargola.jpg": "/ReactPortfolio/static/media/gargola.190cba8128bbe130ed38.jpg",
     "static/media/Captura.JPG": "/ReactPortfolio/static/media/Captura.19fef8d314afe5f04895.JPG",
     "static/media/polaroidTemplate.jpg": "/ReactPortfolio/static/media/polaroidTemplate.a1452bb38e0411b9128a.jpg",
     "static/media/chincheta.svg": "/ReactPortfolio/static/media/chincheta.a4f6099fca5b9436f18ea72da88c3622.svg",
     "index.html": "/ReactPortfolio/index.html",
     "main.13e0a307.css.map": "/ReactPortfolio/static/css/main.13e0a307.css.map",
-    "main.63a60e6a.js.map": "/ReactPortfolio/static/js/main.63a60e6a.js.map",
+    "main.ecae831d.js.map": "/ReactPortfolio/static/js/main.ecae831d.js.map",
     "787.d3e12d36.chunk.js.map": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13e0a307.css",
-    "static/js/main.63a60e6a.js"
+    "static/js/main.ecae831d.js"
   ]
 }
