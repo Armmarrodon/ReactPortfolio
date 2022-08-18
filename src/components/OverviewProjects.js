@@ -1,6 +1,6 @@
 
 import PolaTemplate from "../textures/polaroidTemplate.jpg";
-import PolaPlanet from "../textures/_pola_planet.jpg";
+import PolaPlanet from "../textures/polaplanet.jpg";
 import PolaChincheta from "../textures/chincheta.svg";
 import PolaroidImage from '../components/PolaroidImage.js';
 import PolaGargola from '../textures/gargola.jpg';

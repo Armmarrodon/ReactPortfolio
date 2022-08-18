@@ -1,6 +1,6 @@
 
 import PlanetFranja from '../textures/franjaPla.jpg';
-import Pola_planet from '../textures/_pola_planet.jpg';
+import Pola_planet from '../textures/polaplanet.jpg';
 import Pola_planet2 from '../textures/image_001_0065.jpg';
 import Pola_planet3 from '../textures/Captura.JPG';
 
