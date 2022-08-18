@@ -157,7 +157,7 @@ padding:0.1rem;
 
 }
 .menu-item {
-    height: 2rem;
+    height: 40px;
     display: flex;
     align-items: center;
     border-radius: var(--border-radius);
@@ -165,6 +165,8 @@ padding:0.1rem;
     padding: 0.4rem;
     border: solid;
     border-radius: 5px;
+    line-height:15px;
+    
     background: linear-gradient( 90deg, rgba(249, 211, 180, 1) 0%, rgba(249, 211, 180, 1) 100% );
     z-index: 3;
 }
