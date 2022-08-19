@@ -335,6 +335,10 @@ padding:0.1rem;
         width: 100vw !important;
         height: 56.25vw !important;
     }
+    .columnImage1920full {
+        width: 100vw !important;
+        height: 56.25vw !important;
+    }
 }
 .file {
     display: flex;
