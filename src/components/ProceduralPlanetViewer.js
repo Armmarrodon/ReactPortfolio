@@ -1,9 +1,13 @@
 
 import PlanetFranja from '../textures/franjaPla.jpg';
-import Pola_planet from '../textures/polaplanet.jpg';
+
 import Pola_planet2 from '../textures/image_001_0065.jpg';
 import Pola_planet3 from '../textures/Captura.JPG';
 import Pola_planet4 from '../textures/planetUV.jpg';
+import Pola_planetHeight from '../textures/image_004_0000.jpg';
+import Pola_planetMoisture from '../textures/image_003_0000.jpg';
+import Pola_planetTemperature from '../textures/image_002_0000.jpg';
+import Pola_planetBioma from '../textures/image_001_0000.jpg';
 
 function ProceduralPlanetViewer(props) {
     return (
@@ -69,11 +73,32 @@ function ProceduralPlanetViewer(props) {
                         <div className="titleProject">
                             <img src={Pola_planet3} className="columnImage1920full" alt="pop" />
                         </div>
+                    </div>
+                    <div className="file">
+                        <div className="titleProject">
+                            <div className="titleProject2">HeightMap</div>
+                            <img src={Pola_planetHeight} className="columnImage1920full" alt="pop" />
                         </div>
+                        <div className="titleProject">
+                            <div className="titleProject2">TemperatureMap</div>
+                            <img src={Pola_planetTemperature} className="columnImage1920full" alt="pop" />
+                        </div>
+                    </div>
+                    <div className="file">
+                        <div className="titleProject">
+                            <div className="titleProject2">MoistureMap</div>
+                            <img src={Pola_planetMoisture} className="columnImage1920full" alt="pop" />
+                        </div>
+                        <div className="titleProject">
+                            <div className="titleProject2">BiomaMap</div>
+                            <img src={Pola_planetBioma} className="columnImage1920full" alt="pop" />
+                        </div>
+                    </div>
+                </div>
                 </div>
                
             </div>
-            </div>
+            
         
 
         )
