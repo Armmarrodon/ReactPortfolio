@@ -10,15 +10,33 @@ import React from 'react';
 
 function OverviewProjects(props) {
     const [nameTest, setNameTest] = useState("pop");
-  
+    const size=0.3;
+    const blockSizeW = (size * 40.7) + "vw";
+    const blockSizeH = (size * 49.1) + "vw";
+    const marginSize = (size * 1) + "vw";
     
     useEffect(() => {
 
         console.log('nameTest?: ', { nameTest });
     }, [nameTest]);
-    return (<div ><div className={props.nameClass}>
-        <div onClick={event => { props.fn(event, 2,1000)}}> <PolaroidImage animationOut={props.animationOut} rotation={4} size={0.6} image={PolaPlanet} template={PolaTemplate} chincheta={PolaChincheta} /></div>
-        <div><PolaroidImage animationOut={props.animationOut} rotation={-4} size={0.6} image={PolaGargola} template={PolaTemplate} chincheta={PolaChincheta} /></div>
-    </div></div>);
+    return (<div >
+        <div className={props.nameClass}>
+            
+            <div onClick={event => { props.fn(event, 2, 1000) }}
+                style={{
+                    "width": blockSizeW, "height": blockSizeH, "margin": marginSize
+                    , transform: `scale(${size})`
+                }}>
+                
+                <PolaroidImage animationOut={props.animationOut}  image={PolaPlanet} template={PolaTemplate} chincheta={PolaChincheta} />
+            </div>
+            <div style={{
+                "width": blockSizeW, "height": blockSizeH, "margin": marginSize
+                , transform: `scale(${size})`
+            }}>
+                <PolaroidImage animationOut={props.animationOut} rotation={0} size={size} image={PolaGargola} template={PolaTemplate} chincheta={PolaChincheta} />
+            </div>
+        </div>
+    </div>);
 }
 export default OverviewProjects;

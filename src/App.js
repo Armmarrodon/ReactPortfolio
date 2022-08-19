@@ -124,7 +124,7 @@ function App() {
             {header}
             {barraMenu}
             {overViewOpen}
-            {viewerFader}
+           /* {viewerFader}*/
             
         
         </div>

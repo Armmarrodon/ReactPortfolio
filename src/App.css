@@ -181,16 +181,17 @@ padding:0.1rem;
 .viewer {
     position:absolute;
     display:flex;
+   
 }
 .polaParent {
     /*position: relative;*/
-    margin: 5vw;
+   /* margin: 5vw;*/
     z-index: 0;
     
-    display: flex;
+  /*  display: flex;*/
     width: 40.7vw;
     height: 49.1vw;
-  
+
 }
     .polaParent:hover {
         filter: brightness(1.2);
@@ -251,7 +252,7 @@ padding:0.1rem;
 /*Enter Animation*/
 @keyframes enter {
     from {
-        transform: translateX(200vw);
+        transform: translateX(500vw);
     }
 
     to {
@@ -341,8 +342,8 @@ padding:0.1rem;
     margin-top:5px;
 }
 .columnImage {
-    width: 50vw;
-    height: 50vw;
+    width: 20vw;
+    height: 20vw;
     padding: 20px;
     padding-bottom: 10px;
     background: #c4a991;
@@ -350,11 +351,20 @@ padding:0.1rem;
     align-items: center;
 }
 .columnImage1920 {
-    width: 50vw;
-    height: 28.28125vw;
+    width: 35vw;
+    height: 20vw;
     padding: 20px;
     padding-bottom:1
     0px;
+    background: #c4a991;
+    border-radius: 100px;
+    align-items: center;
+}
+.columnImage1920full {
+    width: 50vw;
+    height: 28.5vw;
+    padding: 20px;
+    padding-bottom: 1 0px;
     background: #c4a991;
     border-radius: 100px;
     align-items: center;
