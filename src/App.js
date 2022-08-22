@@ -95,7 +95,7 @@ function App() {
                 </div>
                 <div onClick={event => handleClickIn(event, 2)}>
                 <DropDownItem number={numberOfItemsOnMenuBar} >
-                        ProceduralPlanet
+                        Procedural Planet
                 </DropDownItem>
                 </div>
                 <div onClick={event => handleClickIn(event, 3)}>
