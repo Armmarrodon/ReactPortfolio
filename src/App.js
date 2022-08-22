@@ -95,8 +95,18 @@ function App() {
                 </div>
                 <div onClick={event => handleClickIn(event, 2)}>
                 <DropDownItem number={numberOfItemsOnMenuBar} >
-                    Procedural planet
+                        ProceduralPlanet
                 </DropDownItem>
+                </div>
+                <div onClick={event => handleClickIn(event, 3)}>
+                    <DropDownItem number={numberOfItemsOnMenuBar} >
+                        Modelling
+                    </DropDownItem>
+                </div>
+                <div onClick={event => handleClickIn(event, 3)}>
+                    <DropDownItem number={numberOfItemsOnMenuBar} >
+                        Animation
+                    </DropDownItem>
                 </div>
             </DropDownMenu>
         </LeftMenuEntry>
@@ -104,10 +114,10 @@ function App() {
 
             <DropDownMenu number={numberOfItemsOnMenuBar} >
                 <DropDownItem number={numberOfItemsOnMenuBar}>
-                        ProceduralPlanet
+                        test1
                     </DropDownItem>
                 <DropDownItem number={numberOfItemsOnMenuBar}>
-                        MagicMagical
+                        test2
                     </DropDownItem>
              </DropDownMenu>
 
