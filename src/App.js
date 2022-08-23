@@ -6,6 +6,7 @@ import DropDownMenu from './components/DropDownMenu.js';
 import DropDownItem from './components/DropDownItem.js';
 import OverviewProjects from './components/OverviewProjects.js';
 import ProceduralPlanetViewer from './components/ProceduralPlanetViewer.js';
+import ScaryPPViewer from './components/ScaryPPviewer.js';
 
 
 function App() {
@@ -68,9 +69,10 @@ function App() {
 
     const overViewOut = <OverviewProjects fn={handleClickIn} nameClass={"viewer"} animationOut={"polaAnimControllerOut"} />;
     const planetProjectView = <ProceduralPlanetViewer />;
+    const sppProjectView = <ScaryPPViewer />
     const [actualViewer, setactualViewer] = useState(<div />);
     const inicio = <div />;
-    let arrayInPages = [ inicio, overView, planetProjectView ];
+    let arrayInPages = [inicio, overView, planetProjectView, sppProjectView];
     let arrayOutPages = [ inicio, overViewOut, inicio ];
 
 
@@ -98,14 +100,10 @@ function App() {
                         Procedural Planet
                 </DropDownItem>
                 </div>
+                
                 <div onClick={event => handleClickIn(event, 3)}>
                     <DropDownItem number={numberOfItemsOnMenuBar} >
-                        Modelling
-                    </DropDownItem>
-                </div>
-                <div onClick={event => handleClickIn(event, 3)}>
-                    <DropDownItem number={numberOfItemsOnMenuBar} >
-                        Animation
+                        Lizardprint animation
                     </DropDownItem>
                 </div>
             </DropDownMenu>

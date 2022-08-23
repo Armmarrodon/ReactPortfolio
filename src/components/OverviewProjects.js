@@ -37,7 +37,8 @@ function OverviewProjects(props) {
             }}>
                 <PolaroidImage animationOut={props.animationOut} rotation={0} size={size} image={PolaGargola} template={PolaTemplate} chincheta={PolaChincheta} />
             </div>
-            <div style={{
+            <div onClick={event => { props.fn(event, 3, 1000) }}
+                style={{
                 "width": blockSizeW, "height": blockSizeH, "margin": marginSize
                 , transform: `scale(${size})`
             }}>
