@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.775abdf5.css",
-    "main.js": "/ReactPortfolio/static/js/main.a14c85e4.js",
+    "main.js": "/ReactPortfolio/static/js/main.0b31c454.js",
     "static/js/787.d3e12d36.chunk.js": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js",
     "static/media/concrete-wall-darker.jpg": "/ReactPortfolio/static/media/concrete-wall-darker.cc23279aa61854ad3749.jpg",
+    "static/media/gif_walkCycle_007.gif": "/ReactPortfolio/static/media/gif_walkCycle_007.eaa11f8a4d14e1e3aa13.gif",
+    "static/media/franjaSPP.jpg": "/ReactPortfolio/static/media/franjaSPP.201c9879e943907a9936.jpg",
     "static/media/spiderSPP.jpg": "/ReactPortfolio/static/media/spiderSPP.f1be83bac4a3641e5333.jpg",
     "static/media/planetUV.jpg": "/ReactPortfolio/static/media/planetUV.2b255d78d0f838c735e5.jpg",
+    "static/media/esc35-3846-3869.gif": "/ReactPortfolio/static/media/esc35-3846-3869.80be6933d431953f6c79.gif",
     "static/media/franjaPla.jpg": "/ReactPortfolio/static/media/franjaPla.6a7d3b8b5cfff3ceece9.jpg",
     "static/media/image_001_0065.jpg": "/ReactPortfolio/static/media/image_001_0065.ce66ae1f0b0d8855b7fe.jpg",
     "static/media/image_003_0000.jpg": "/ReactPortfolio/static/media/image_003_0000.6d6b4011bd4ab1c1f6c7.jpg",
@@ -19,11 +22,11 @@
     "static/media/chincheta.svg": "/ReactPortfolio/static/media/chincheta.a4f6099fca5b9436f18ea72da88c3622.svg",
     "index.html": "/ReactPortfolio/index.html",
     "main.775abdf5.css.map": "/ReactPortfolio/static/css/main.775abdf5.css.map",
-    "main.a14c85e4.js.map": "/ReactPortfolio/static/js/main.a14c85e4.js.map",
+    "main.0b31c454.js.map": "/ReactPortfolio/static/js/main.0b31c454.js.map",
     "787.d3e12d36.chunk.js.map": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.775abdf5.css",
-    "static/js/main.a14c85e4.js"
+    "static/js/main.0b31c454.js"
   ]
 }
