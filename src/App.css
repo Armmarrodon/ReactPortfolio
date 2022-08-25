@@ -188,7 +188,7 @@ padding:0.1rem;
   /*  display: flex;*/
     width: 40.7vw;
     height: 49.1vw;
-
+   
 }
     .polaParent:hover {
         filter: brightness(1.2);
@@ -198,12 +198,13 @@ padding:0.1rem;
     animation-name: enter;
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
-   
+    
 }
 .polaAnimController2 {
     animation-name: hoveringPola;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    
 }
     .polaAnimController2:hover {
         animation-name: hoveringPola;
@@ -221,6 +222,7 @@ padding:0.1rem;
 
 
 .polaImage0 {
+    box-shadow: 0 0 150px #000;
     position: absolute;
     width: 40.7vw;
     height: 49.1vw;
@@ -317,6 +319,10 @@ padding:0.1rem;
         width: 100vw !important;
         height: 56.25vw !important;
     }
+    .youtubeBox {
+        width: 100vw !important;
+        height: 56.25vw !important;
+    }
 }
 .file {
     display: flex;
@@ -353,6 +359,10 @@ padding:0.1rem;
 }
 .textPa {
 display:inline-block;
+}
+.youtubeBox {
+width:50vw;
+height:28.5vw;
 }
 
 
