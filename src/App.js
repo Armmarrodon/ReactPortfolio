@@ -78,38 +78,18 @@ function App() {
         <div className="menuOutline"><AiOutlineMenu color="rgba(249, 211, 180, 0.6)" size="50px" /> </div>
     </header>
     const barraMenu = <div className="barraMenu" >
-        <LeftMenuEntry name="Projects" number={numberOfItemsOnMenuBar} >
-            
-            <DropDownMenu number={numberOfItemsOnMenuBar} >
-                <div onClick={event => handleClickIn(event, 1)}>
-                <DropDownItem number={numberOfItemsOnMenuBar}>
-                      Overview
-                    </DropDownItem>
-                </div>
-                <div onClick={event => handleClickIn(event, 2)}>
-                <DropDownItem number={numberOfItemsOnMenuBar} >
-                        Procedural Planet
-                </DropDownItem>
-                </div>
-                
-                <div onClick={event => handleClickIn(event, 3)}>
-                    <DropDownItem number={numberOfItemsOnMenuBar} >
-                        Lizardprint animation
-                    </DropDownItem>
-                </div>
+        <LeftMenuEntry name="Projects" number={numberOfItemsOnMenuBar} >          
+            <DropDownMenu number={numberOfItemsOnMenuBar} >  
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Overview" fn={handleClickIn} id={1} />
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Procedural Planet" fn={handleClickIn} id={2} />
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Lizardprint Animation" fn={handleClickIn} id={3} />
             </DropDownMenu>
         </LeftMenuEntry>
         <LeftMenuEntry name="No projects" number={numberOfItemsOnMenuBar} >
-
             <DropDownMenu number={numberOfItemsOnMenuBar} >
-                <DropDownItem number={numberOfItemsOnMenuBar}>
-                        test1
-                    </DropDownItem>
-                <DropDownItem number={numberOfItemsOnMenuBar}>
-                        test2
-                    </DropDownItem>
+                <DropDownItem number={numberOfItemsOnMenuBar} text="test1"/>
+                <DropDownItem number={numberOfItemsOnMenuBar} text="test2"/>
              </DropDownMenu>
-
         </LeftMenuEntry>
     </div>
     const eso = 2;
