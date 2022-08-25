@@ -30,14 +30,7 @@ function App() {
         console.log('IDViewerÙpdate: ', { viewerID });
     }, [viewerID]);
 
-    useEffect(() => {
-
-        console.log('changeFaderHolder: ', { actualFaderHold });
-    }, [actualFaderHold]);
-    useEffect(() => {
-
-        console.log('test: ', { test });
-    }, [test]);
+   
 
     function HandleClickToStart(event) {
 
@@ -59,14 +52,12 @@ function App() {
          
             setViewerID(id);
         }
-   
         setactualFaderHold(arrayOutPages[id]);
 
     };
     /*pages*/
 
     const overView = <OverviewProjects fn={handleClickIn} nameClass={"viewer"} animationOut={"polaAnimController"} fun={this} />;
-
     const overViewOut = <OverviewProjects fn={handleClickIn} nameClass={"viewer"} animationOut={"polaAnimControllerOut"} />;
     const planetProjectView = <ProceduralPlanetViewer />;
     const sppProjectView = <ScaryPPViewer />
