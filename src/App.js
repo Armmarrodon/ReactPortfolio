@@ -72,9 +72,9 @@ function App() {
     /*-----------------*/
     const header = <header>
         
-        <h1 className="title" onClick={event => HandleClickToStart(event, actualFaderHold)}>Juan Mart&iacute;n Rodr&iacute;guez</h1>
+        <h1 className="title" onClick={event => HandleClickToStart(event, actualFaderHold)}>Juan Mart&iacute;n Rodr&iacute;guez (UnderConstruction)</h1>
         
-        <h1 className="title2">JMR</h1>
+        <h1 className="title2">JMR (UnderConstruction)</h1>
         <div className="menuOutline"><AiOutlineMenu color="rgba(249, 211, 180, 0.6)" size="50px" /> </div>
     </header>
     const barraMenu = <div className="barraMenu" >
