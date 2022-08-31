@@ -4,9 +4,10 @@ import { useEffect, useState } from 'react';
 import LeftMenuEntry from './components/LeftMenuEntry.js';
 import DropDownMenu from './components/DropDownMenu.js';
 import DropDownItem from './components/DropDownItem.js';
-import OverviewProjects from './components/OverviewProjects.js';
-import ProceduralPlanetViewer from './components/ProceduralPlanetViewer.js';
-import ScaryPPViewer from './components/ScaryPPviewer.js';
+import OverviewProjects from './pages/OverviewProjects.js';
+import ProceduralPlanetViewer from './pages/ProceduralPlanetViewer.js';
+import ScaryPPViewer from './pages/ScaryPPviewer.js';
+import GifViewer from './pages/GifViewer.js';
 
 
 function App() {
@@ -61,9 +62,10 @@ function App() {
     const overViewOut = <OverviewProjects fn={handleClickIn} nameClass={"viewer"} animationOut={"polaAnimControllerOut"} />;
     const planetProjectView = <ProceduralPlanetViewer />;
     const sppProjectView = <ScaryPPViewer />
-    const [actualViewer, setactualViewer] = useState(<div />);
+    const gifView = <GifViewer />
+   
     const inicio = <div />;
-    let arrayInPages = [inicio, overView, planetProjectView, sppProjectView];
+    let arrayInPages = [inicio, overView, planetProjectView, sppProjectView, gifView];
     let arrayOutPages = [ inicio, overViewOut, inicio ];
 
 
@@ -87,7 +89,7 @@ function App() {
         </LeftMenuEntry>
         <LeftMenuEntry name="No projects" number={numberOfItemsOnMenuBar} >
             <DropDownMenu number={numberOfItemsOnMenuBar} >
-                <DropDownItem number={numberOfItemsOnMenuBar} text="test1"/>
+                <DropDownItem number={numberOfItemsOnMenuBar} text="GIFTest" fn={handleClickIn} id={4} />
                 <DropDownItem number={numberOfItemsOnMenuBar} text="test2"/>
              </DropDownMenu>
         </LeftMenuEntry>

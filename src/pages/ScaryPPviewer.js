@@ -2,11 +2,7 @@ import Franja from '../textures/franjaSPP.jpg';
 
 import gif1 from '../textures/esc35-3846-3869.gif';
 import gif2 from '../textures/gif_walkCycle_007.gif';
-import Pola_planet4 from '../textures/planetUV.jpg';
-import Pola_planetHeight from '../textures/image_004_0000.jpg';
-import Pola_planetMoisture from '../textures/image_003_0000.jpg';
-import Pola_planetTemperature from '../textures/image_002_0000.jpg';
-import Pola_planetBioma from '../textures/image_001_0000.jpg';
+
 
 function ScaryPPviewer(props) {
     return (
@@ -31,9 +27,9 @@ function ScaryPPviewer(props) {
                         <div className="titleProject">
                             <div className="youtubeBox">
                             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S9bahVxUr6Y"
-                                title="YouTube video player" frameborder="0"
+                                title="YouTube video player" frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
+                                    allowFullScreen></iframe>
                                 </div>
                         </div>
                     </div>
