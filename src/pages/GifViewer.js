@@ -17,14 +17,16 @@ function GifViewer(props) {
     }, [keyword])
 
     return (
-        <div className="test">
-            
-                <label >Name (4 to 8 characters):</label>
+        <div className="gifViewer">
+            <div className="inputBox">
+                <label >Gif to search:</label>
                 <input ref={inputRef} type="text" id="name" name="name"/>
-                <button onClick={() => HandleClickButton()} >Update Gifs</button>
-           
+                <button onClick={() => HandleClickButton()} >Search Gifs</button>
+            </div>
+        <div className="gifDisplay">
             <ListOfGifs keyword={keyword}/>
-        </div>
+            </div>
+            </div>
             );
 }
 export default GifViewer;

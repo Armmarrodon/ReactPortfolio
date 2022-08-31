@@ -1,4 +1,30 @@
-.test {
-
-color:white;
+.gifViewer {
+    text-align: center;
+ 
+}
+.gifDisplay {
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    align-content: space-around;
+}
+.bodyViewer {
+    text-align: center;
+    width: 100vw;
+    background: red;
+    
+   
+}
+.inputBox {
+    background: grey;
+    color: white;
+    width: 200px;
+    height: 75px;
+    display:inline-block;
+   
+}
+.gif {
+    flex:2;
+    flex-basis:10%;
 }
