@@ -23,10 +23,10 @@ function GifViewer(props) {
                 <input ref={inputRef} type="text" id="name" name="name"/>
                 <button onClick={() => HandleClickButton()} >Search Gifs</button>
             </div>
-        <div className="gifDisplay">
-            <ListOfGifs keyword={keyword}/>
+            <div className="gifDisplay">
+                <ListOfGifs keyword={keyword}/>
             </div>
-            </div>
+        </div>
             );
 }
 export default GifViewer;

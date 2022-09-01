@@ -22,8 +22,8 @@ function OverviewProjects(props) {
     }, [nameTest]);
     return (<div >
         <div className={props.nameClass}>
-            
-            <div onClick={event => { props.fn(event, 2, 1000) }}
+
+            <div onClick={event => { props.fn(event, 2, 1000, props.menuId) }}
                 style={{
                     "width": blockSizeW, "height": blockSizeH, "margin": marginSize
                     , transform: `scale(${size})`
@@ -37,7 +37,7 @@ function OverviewProjects(props) {
             }}>
                 <PolaroidImage animationOut={props.animationOut} rotation={0} size={size} image={PolaGargola} template={PolaTemplate} chincheta={PolaChincheta} />
             </div>
-            <div onClick={event => { props.fn(event, 3, 1000) }}
+            <div onClick={event => { props.fn(event, 3, 1000, props.menuId) }}
                 style={{
                 "width": blockSizeW, "height": blockSizeH, "margin": marginSize
                 , transform: `scale(${size})`
