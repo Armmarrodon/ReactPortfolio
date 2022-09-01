@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     display: flex;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: center;
     align-items:stretch;
     margin: 1vw;
 }
@@ -29,6 +29,6 @@
 .gif {
     flex:0;
     flex-basis: 10%;
-    max-height: 10vw;
+    max-height: 20vh;
    
 }
