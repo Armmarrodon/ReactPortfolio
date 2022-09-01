@@ -51,8 +51,9 @@ function App() {
             setViewerFade(actualFaderHold);
          
             setViewerID(id);
-        }
-        setactualFaderHold(arrayOutPages[id]);
+        } if (id = 1) {
+            setactualFaderHold(arrayOutPages[id]);
+        } else { setactualFaderHold(arrayOutPages[0]); }
 
     };
     /*pages*/
@@ -71,7 +72,7 @@ function App() {
     let arrayNoProjectsPages = [gifView];
     let arrayOfArrays = [arrayProjectPages, arrayNoProjectsPages];
 
-    let arrayOutPages = [inicio, overViewOut, inicio];
+    let arrayOutPages = [inicio/*, overViewOut*/];
    
 
     useEffect(() => {
