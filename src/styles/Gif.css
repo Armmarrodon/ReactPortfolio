@@ -3,13 +3,10 @@
  
 }
 .gifDisplay {
-    text-align: center;
-    flex-wrap: wrap;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items:stretch;
-    margin: 1vw;
+   margin:2vw;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
 }
 .bodyViewer {
     text-align: center;
@@ -29,6 +26,6 @@
 .gif {
     flex:0;
     flex-basis: 10%;
-    max-height: 20vh;
+    width: 32vw;
    
 }

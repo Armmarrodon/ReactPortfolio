@@ -3,8 +3,11 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\pages",
+    "\\src\\services",
+    "\\src\\styles",
+    "\\src\\textures"
   ],
-  "SelectedNode": "\\src\\components\\ListOfGifs.js",
   "PreviewInSolutionExplorer": false
 }

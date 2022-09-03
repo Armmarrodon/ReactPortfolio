@@ -10,40 +10,28 @@ import React from 'react';
 
 
 function OverviewProjects(props) {
-    const [nameTest, setNameTest] = useState("pop");
-    const size=0.3;
-    const blockSizeW = (size * 40.7) + "vw";
-    const blockSizeH = (size * 49.1) + "vw";
-    const marginSize = (size * 1) + "vw";
-    
+  
+    const size=0.3;    
     useEffect(() => {
 
-        console.log('nameTest?: ', { nameTest });
-    }, [nameTest]);
+        console.log('overview?:');
+    }, []);
     return (<div >
         <div className={props.nameClass}>
 
-            <div onClick={event => { props.fn(event, 2, 1000, props.menuId) }}
-                style={{
-                    "width": blockSizeW, "height": blockSizeH, "margin": marginSize
-                    , transform: `scale(${size})`
-                }}>
-                
-                <PolaroidImage animationOut={props.animationOut}  image={PolaPlanet} template={PolaTemplate} chincheta={PolaChincheta} />
-            </div>
-            <div style={{
-                "width": blockSizeW, "height": blockSizeH, "margin": marginSize
-                , transform: `scale(${size})`
-            }}>
-                <PolaroidImage animationOut={props.animationOut} rotation={0} size={size} image={PolaGargola} template={PolaTemplate} chincheta={PolaChincheta} />
-            </div>
-            <div onClick={event => { props.fn(event, 3, 1000, props.menuId) }}
-                style={{
-                "width": blockSizeW, "height": blockSizeH, "margin": marginSize
-                , transform: `scale(${size})`
-            }}>
-                <PolaroidImage animationOut={props.animationOut} rotation={0} size={size} image={PolaScary} template={PolaTemplate} chincheta={PolaChincheta} />
-            </div>
+        
+
+            <PolaroidImage animationOut={props.animationOut} size={size} id={2} fn={props.fn} menuId={props.menuId} image={PolaPlanet} template={PolaTemplate}
+                chincheta={PolaChincheta} />
+            
+         
+            <PolaroidImage animationOut={props.animationOut} size={size} id={4} fn={props.fn} menuId={props.menuId} image={PolaGargola} template={PolaTemplate}
+                chincheta={PolaChincheta} />
+           
+            
+            <PolaroidImage animationOut={props.animationOut} size={size} id={3} fn={props.fn} menuId={props.menuId} image={PolaScary} template={PolaTemplate}
+                chincheta={PolaChincheta} />
+           
         </div>
     </div>);
 }
