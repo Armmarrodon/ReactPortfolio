@@ -1,11 +1,28 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.d36833ed.css",
-    "main.js": "/ReactPortfolio/static/js/main.f3a53c13.js",
+    "main.css": "/ReactPortfolio/static/css/main.ba6791a7.css",
+    "main.js": "/ReactPortfolio/static/js/main.589a9a26.js",
     "static/js/787.d3e12d36.chunk.js": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js",
     "static/media/concrete-wall-darker.jpg": "/ReactPortfolio/static/media/concrete-wall-darker.cc23279aa61854ad3749.jpg",
     "static/media/gif_walkCycle_007.gif": "/ReactPortfolio/static/media/gif_walkCycle_007.eaa11f8a4d14e1e3aa13.gif",
+    "static/media/1662130120767.png": "/ReactPortfolio/static/media/1662130120767.5597bf1f108e775f8c4c.png",
+    "static/media/download.png": "/ReactPortfolio/static/media/download.9725ccb2483a14a9bd48.png",
+    "static/media/1662129126618.png": "/ReactPortfolio/static/media/1662129126618.5b6f5c4611deb243c373.png",
+    "static/media/297897884-4.png": "/ReactPortfolio/static/media/297897884-4.36f985169033fcd561d5.png",
+    "static/media/1662135963326.png": "/ReactPortfolio/static/media/1662135963326.607e5d906cc449ac5091.png",
+    "static/media/ort1.png": "/ReactPortfolio/static/media/ort1.dd4a08cba626a220748a.png",
+    "static/media/45214.png": "/ReactPortfolio/static/media/45214.a748a7068f60447ee4bb.png",
+    "static/media/12312 (2).png": "/ReactPortfolio/static/media/12312 (2).5badd72a7311d01a9ff3.png",
+    "static/media/3656345.png": "/ReactPortfolio/static/media/3656345.05e502d05f2e2c4832eb.png",
+    "static/media/297897884-3.png": "/ReactPortfolio/static/media/297897884-3.d23650e77e4749af9df2.png",
+    "static/media/12312.png": "/ReactPortfolio/static/media/12312.5571e32b991e25bc5699.png",
+    "static/media/descarga.png": "/ReactPortfolio/static/media/descarga.5493bf561f8b90dab010.png",
+    "static/media/1434324.png": "/ReactPortfolio/static/media/1434324.97b90c99557a543ad88d.png",
+    "static/media/297897884-1.png": "/ReactPortfolio/static/media/297897884-1.2888778cf70d8f77b7f3.png",
     "static/media/franjaSPP.jpg": "/ReactPortfolio/static/media/franjaSPP.201c9879e943907a9936.jpg",
+    "static/media/5345345.png": "/ReactPortfolio/static/media/5345345.8dd1b4aa5b794a566ce8.png",
+    "static/media/297897884-2.png": "/ReactPortfolio/static/media/297897884-2.ca31e807f430aa308983.png",
+    "static/media/367573467.png": "/ReactPortfolio/static/media/367573467.1b912298f0e8f5311002.png",
     "static/media/spiderSPP.jpg": "/ReactPortfolio/static/media/spiderSPP.f1be83bac4a3641e5333.jpg",
     "static/media/planetUV.jpg": "/ReactPortfolio/static/media/planetUV.2b255d78d0f838c735e5.jpg",
     "static/media/esc35-3846-3869.gif": "/ReactPortfolio/static/media/esc35-3846-3869.80be6933d431953f6c79.gif",
@@ -22,12 +39,12 @@
     "static/media/polaroidTemplate.jpg": "/ReactPortfolio/static/media/polaroidTemplate.a1452bb38e0411b9128a.jpg",
     "static/media/chincheta.svg": "/ReactPortfolio/static/media/chincheta.a4f6099fca5b9436f18ea72da88c3622.svg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.d36833ed.css.map": "/ReactPortfolio/static/css/main.d36833ed.css.map",
-    "main.f3a53c13.js.map": "/ReactPortfolio/static/js/main.f3a53c13.js.map",
+    "main.ba6791a7.css.map": "/ReactPortfolio/static/css/main.ba6791a7.css.map",
+    "main.589a9a26.js.map": "/ReactPortfolio/static/js/main.589a9a26.js.map",
     "787.d3e12d36.chunk.js.map": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d36833ed.css",
-    "static/js/main.f3a53c13.js"
+    "static/css/main.ba6791a7.css",
+    "static/js/main.589a9a26.js"
   ]
 }
