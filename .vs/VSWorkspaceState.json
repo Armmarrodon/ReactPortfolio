@@ -6,8 +6,8 @@
     "\\src\\components",
     "\\src\\pages",
     "\\src\\services",
-    "\\src\\styles",
-    "\\src\\textures"
+    "\\src\\styles"
   ],
+  "SelectedNode": "\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
