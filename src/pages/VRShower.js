@@ -24,10 +24,10 @@ function VRShower(props) {
                                 <strong>Expertise in Game Programming:</strong> As a Unity developer, I adeptly programmed essential functionalities and interactions within the projects, proficiently utilizing C# to create engaging and responsive experiences.
                             </li>
                             <li>
-                                <strong>Optimization Guru:</strong> Recognizing the importance of seamless performance in VR and 3D environments, I applied optimization techniques to enhance rendering efficiency and achieve smooth, enjoyable user experiences.
+                                <strong>Optimization:</strong> Recognizing the importance of seamless performance in VR and 3D environments, I applied optimization techniques to enhance rendering efficiency and achieve smooth, enjoyable user experiences.
                             </li>
                             <li>
-                                <strong>VR Development Specialist:</strong> Specializing in VR, I crafted captivating virtual reality experiences that captivated users and showcased the potential of this transformative technology.
+                                <strong>VR Development:</strong> Specializing in VR, I crafted captivating virtual reality experiences that captivated users and showcased the potential of this transformative technology.
                             </li>
                             <li>
                                 <strong>Educational Content Development:</strong> My skills extended to the creation of educational simulations, ensuring content aligned with defined learning objectives while delivering an effective and engaging learning environment.
@@ -48,13 +48,13 @@ function VRShower(props) {
                         </p>
                         <p>
                             <br/>
-                            I completely modeled the harness from scratch, along with all the potential hazards it could encounter,
+                            I completely modeled the harness from scratch in the video, along with all the potential hazards it could encounter,
                             and implemented all the necessary animations based on a real harness.
 
                         </p>
                         <p>
                                 <br/>
-                            I modeled many of the required props as they were requested by the client.
+                            I modeled many of the required props as they were requested by the client. Most of the projects we made during this time are confidential so I cant show everything
 
                         </p>
                     </div>
