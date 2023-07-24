@@ -9,8 +9,11 @@ import ProceduralPlanetViewer from './pages/ProceduralPlanetViewer.js';
 import ScaryPPViewer from './pages/ScaryPPviewer.js';
 import GifViewer from './pages/GifViewer.js';
 import Viewer3D from './pages/Viewer3D';
+import StatisticExercises from './pages/StatisticExercises';
 import ViewerAIinvestigation from './pages/ViewerAIinvestigation';
 import ImagesViewer from './components/ImagesViewer.js';
+import XLSXImport from './pages/XLSXImport.js';
+import VRShower from './pages/VRShower.js';
 
 function App() {
     
@@ -56,14 +59,16 @@ function App() {
     const sppProjectView = <ScaryPPViewer />
     const gifView = <GifViewer />
     const view3D = <Viewer3D />
+    const statisticsEx = <StatisticExercises />
     const AiView = <ViewerAIinvestigation fn={handleClickIn} menuId={1} nameClass={"viewer"} />
-
+    const XLImport = <XLSXImport />
+    const VRshow = <VRShower/>
     const orcAI = <ImagesViewer folder='orcs' />
     const landScapesAI = <ImagesViewer folder='landScapes' />
 
     const inicio = <div />;
   
-    let arrayProjectPages = [inicio, overView, planetProjectView, sppProjectView, view3D];
+    let arrayProjectPages = [inicio, overView, planetProjectView, sppProjectView, view3D, statisticsEx, VRshow];
     let arrayNoProjectsPages = [gifView, AiView];
     /*pagesAI*/
     let arraAiInv = [orcAI,landScapesAI];
@@ -93,6 +98,8 @@ function App() {
                 <DropDownItem number={numberOfItemsOnMenuBar} text="Procedural Planet" fn={handleClickIn} id={2} menuId={0}/>
                 <DropDownItem number={numberOfItemsOnMenuBar} text="Lizardprint Animation" fn={handleClickIn} id={3} menuId={0} />
                 <DropDownItem number={numberOfItemsOnMenuBar} text="Viewer3D" fn={handleClickIn} id={4} menuId={0} />
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Statistic Overview" fn={handleClickIn} id={5} menuId={0} />
+                <DropDownItem number={numberOfItemsOnMenuBar} text="VR" fn={handleClickIn} id={6} menuId={0} />
             </DropDownMenu>
         </LeftMenuEntry>
         <LeftMenuEntry name="No projects" number={numberOfItemsOnMenuBar} >
