@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.3be2939a.css",
-    "main.js": "/ReactPortfolio/static/js/main.bdfc95f8.js",
+    "main.js": "/ReactPortfolio/static/js/main.2a92f844.js",
     "static/js/787.d3e12d36.chunk.js": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js",
     "static/media/concrete-wall-darker.jpg": "/ReactPortfolio/static/media/concrete-wall-darker.cc23279aa61854ad3749.jpg",
     "static/media/gif_walkCycle_007.gif": "/ReactPortfolio/static/media/gif_walkCycle_007.eaa11f8a4d14e1e3aa13.gif",
@@ -61,11 +61,11 @@
     "static/media/chincheta.svg": "/ReactPortfolio/static/media/chincheta.a4f6099fca5b9436f18ea72da88c3622.svg",
     "index.html": "/ReactPortfolio/index.html",
     "main.3be2939a.css.map": "/ReactPortfolio/static/css/main.3be2939a.css.map",
-    "main.bdfc95f8.js.map": "/ReactPortfolio/static/js/main.bdfc95f8.js.map",
+    "main.2a92f844.js.map": "/ReactPortfolio/static/js/main.2a92f844.js.map",
     "787.d3e12d36.chunk.js.map": "/ReactPortfolio/static/js/787.d3e12d36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3be2939a.css",
-    "static/js/main.bdfc95f8.js"
+    "static/js/main.2a92f844.js"
   ]
 }
