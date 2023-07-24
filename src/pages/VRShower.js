@@ -4,7 +4,7 @@ function VRShower(props) {
         <div className="bodyProject">
             <div className="file">
                 <div className="textPa">
-                    <div className="titleProject"> Unity Developer - Serious Games, Educational Simulations, and VR                   </div>
+                    <div className="titleProject"> Unity Developer - Serious Games, Educational Simulations and VR                   </div>
                     <div className="bodyp"> &emsp;
 
                         Between 2017 and 2019, I had the privilege of working as a Unity developer,
