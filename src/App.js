@@ -94,19 +94,20 @@ function App() {
     const barraMenu = <div className="barraMenu" >
         <LeftMenuEntry name="Projects" number={numberOfItemsOnMenuBar} >          
             <DropDownMenu number={numberOfItemsOnMenuBar} >
-                <DropDownItem number={numberOfItemsOnMenuBar} text="Overview" fn={handleClickIn} id={1} menuId={0} />
+               
                 <DropDownItem number={numberOfItemsOnMenuBar} text="Procedural Planet" fn={handleClickIn} id={2} menuId={0}/>
                 <DropDownItem number={numberOfItemsOnMenuBar} text="Lizardprint Animation" fn={handleClickIn} id={3} menuId={0} />
-                <DropDownItem number={numberOfItemsOnMenuBar} text="Viewer3D" fn={handleClickIn} id={4} menuId={0} />
-                <DropDownItem number={numberOfItemsOnMenuBar} text="Statistic Overview" fn={handleClickIn} id={5} menuId={0} />
                 <DropDownItem number={numberOfItemsOnMenuBar} text="VR" fn={handleClickIn} id={6} menuId={0} />
             </DropDownMenu>
         </LeftMenuEntry>
-        <LeftMenuEntry name="No projects" number={numberOfItemsOnMenuBar} >
+        <LeftMenuEntry name="Tests" number={numberOfItemsOnMenuBar} >
             <DropDownMenu number={numberOfItemsOnMenuBar} >
                 <DropDownItem number={numberOfItemsOnMenuBar} text="GIFTest" fn={handleClickIn} id={0} menuId={1} />
                 <DropDownItem number={numberOfItemsOnMenuBar} text="AiInvestigation" fn={handleClickIn} id={1} menuId={1} />
                 <DropDownItem number={numberOfItemsOnMenuBar} text="test2"/>
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Viewer3D" fn={handleClickIn} id={4} menuId={0} />
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Overview" fn={handleClickIn} id={1} menuId={0} />
+                <DropDownItem number={numberOfItemsOnMenuBar} text="Statistic Overview" fn={handleClickIn} id={5} menuId={0} />
              </DropDownMenu>
         </LeftMenuEntry>
     </div>
