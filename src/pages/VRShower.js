@@ -11,7 +11,7 @@ function VRShower(props) {
                         contributing to an array of captivating projects, including serious games, educational simulations,
                         and 3D videos, with a strong focus on virtual reality (VR) experiences.
                     </div>
-                    <div className="titleProject"> Unity DevKey Contributions:                  </div>
+                    <div className="titleProject"> Skills used:                  </div>
                     <div className="bodyp"> &emsp;
                         <ul>
                             <li>
