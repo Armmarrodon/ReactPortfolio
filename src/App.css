@@ -362,11 +362,38 @@ display:none;
     .textPa {
         display: inline-block;
     }
+.textPa2 {
+    width: 50vw;
+    display: inline-block;
+}
+    .textPa3 {
+       
+        width: 32.6vw;
+        display: inline-block;
+    }
 
     .youtubeBox {
         width: 50vw;
         height: 28.5vw;
     }
+.tabla {
+    width: 90%;
+    border-collapse: collapse;
+}
 
+    .tabla th, .tabla td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        background-color: #f0f0f0;
+    }
+
+    .tabla th {
+        background-color: #f2AAAA;
+    }
+.full-width {
+    width: 100vw ; 
+    height: 100px;
+}
 
 
